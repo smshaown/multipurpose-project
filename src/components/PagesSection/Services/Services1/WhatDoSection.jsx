@@ -11,35 +11,41 @@ import img4 from "../../../../assets/images/Pages/Services/Services1/g4.jpg";
 const WhatDoSection = () => {
   return (
     <div className="myContainer mt-64">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 justify-between ">
         <div>
-          <h2>What We Do?</h2>
-          <p>
+          <h2 className="text-[40px] text-[#343F52] font-bold">What We Do?</h2>
+          <p className="text-[#8B697B] leading-8 py-4 text-xl space-y-2 mb-4">
             The full service we are offering is specifically designed to meet
             your business needs and projects.
           </p>
 
-          <div>
-            <div>
+          <div className="flex md:flex-row flex-col gap-8">
+            <div className="gap-4">
+            <div className="flex gap-6">
+              
+              <span className="md:w-24 md:h-16 w-20 h-20 bg-[#E0E9FA] rounded-full justify-center items-center flex "><BiPhoneCall className=""  /></span> 
               <div>
-                <BiPhoneCall />
-              </div>
-              <div>
-                <h2>24/7 Support</h2>
-                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
-              </div>
+              <h2>24/7 Support</h2>
+              <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+                         
+            </div>
+            
+          </div>
+
+          <div className="flex gap-6">
+            <div className="w-20 h-20 bg-[#E0E9FA] rounded-full">
+              <RiSecurePaymentLine />
             </div>
             <div>
-              <div>
-                <RiSecurePaymentLine />
-              </div>
-              <div>
-                <h2>Secure Payments</h2>
-                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
-              </div>
+              <h2>Secure Payments</h2>
+              <p>Nulla vitae elit libero pharetra augue dapibus.</p>
             </div>
-            <div>
-              <div>
+          </div>
+
+            </div>
+           <div>
+           <div className="flex gap-6">
+              <div className="w-20 h-20 bg-[#E0E9FA] rounded-full">
                 <MdSystemUpdateAlt />
               </div>
               <div>
@@ -47,8 +53,9 @@ const WhatDoSection = () => {
                 <p>Nulla vitae elit libero pharetra augue dapibus.</p>
               </div>
             </div>
-            <div>
-              <div>
+
+            <div className="flex gap-6">
+              <div className="w-20 h-20 bg-[#E0E9FA] rounded-full">
                 <SiMarketo />
               </div>
               <div>
@@ -56,26 +63,23 @@ const WhatDoSection = () => {
                 <p>Nulla vitae elit libero pharetra augue dapibus.</p>
               </div>
             </div>
+           </div>
           </div>
         </div>
-        <div>
-          <div>
-            <div>
-              <img src={img1} alt="" />
+        
+
+
+        <div className="flex gap-4">
+            <div className="grid gap-4">
+                <img className="rounded-md" src={img1} alt="" />
+                <img className="rounded-md" src={img3} alt="" />
             </div>
-            <div>
-              <img src={img2} alt="" />
+            <div className="grid gap-4">
+                <img className="rounded-md" src={img2} alt="" />
+                <img className="rounded-md" src={img4} alt="" />
             </div>
-          </div>
-          <div>
-            <div>
-              <img src={img3} alt="" />
-            </div>
-            <div>
-              <img src={img4} alt="" />
-            </div>
-          </div>
         </div>
+
       </div>
     </div>
   );
