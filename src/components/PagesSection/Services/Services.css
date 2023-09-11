@@ -1,0 +1,11 @@
+.hrSpan{
+    width: 73%;
+    position: absolute;
+    content: "";
+    height: 1px;
+    background: none;
+    border-top: 1px solid rgba(164,174,198,.2);
+    top: 32px;
+    z-index: 1;
+    left: 4rem;
+}

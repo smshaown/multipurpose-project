@@ -2,6 +2,7 @@ import React from 'react';
 import Services1Banner from './Services1Banner';
 import ProjectCard from './ProjectCard';
 import WhatDoSection from './WhatDoSection';
+import HowDoSection from './HowDoSection';
 
 const Services = () => {
     return (
@@ -9,6 +10,7 @@ const Services = () => {
             <Services1Banner />
             <ProjectCard />
             <WhatDoSection />
+            <HowDoSection />
         </div>
     );
 };
