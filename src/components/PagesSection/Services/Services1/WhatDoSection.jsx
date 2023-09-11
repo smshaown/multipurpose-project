@@ -20,66 +20,85 @@ const WhatDoSection = () => {
           </p>
 
           <div className="flex md:flex-row flex-col gap-8">
-            <div className="gap-4">
-            <div className="flex gap-6">
-              
-              <span className="md:w-24 md:h-16 w-20 h-20 bg-[#E0E9FA] rounded-full justify-center items-center flex "><BiPhoneCall className=""  /></span> 
-              <div>
-              <h2>24/7 Support</h2>
-              <p>Nulla vitae elit libero pharetra augue dapibus.</p>
-                         
-            </div>
-            
-          </div>
-
-          <div className="flex gap-6">
-            <div className="w-20 h-20 bg-[#E0E9FA] rounded-full">
-              <RiSecurePaymentLine />
-            </div>
-            <div>
-              <h2>Secure Payments</h2>
-              <p>Nulla vitae elit libero pharetra augue dapibus.</p>
-            </div>
-          </div>
-
-            </div>
-           <div>
-           <div className="flex gap-6">
-              <div className="w-20 h-20 bg-[#E0E9FA] rounded-full">
-                <MdSystemUpdateAlt />
+            <div className="flex flex-col gap-4">
+              <div className="flex gap-6">
+                <span className="md:w-32 md:h-16 w-20 h-20 bg-[#E0E9FA] rounded-full justify-center items-center flex ">
+                  <BiPhoneCall className="text-[#3f78e0] text-2xl" />
+                </span>
+                <div>
+                  <h2 className="text-xl text-[#343f52] mb-3 font-bold mt-2">
+                    24/7 Support
+                  </h2>
+                  <p className="leading-6 font-medium text-lg">
+                    Nulla vitae elit libero pharetra augue dapibus.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h2>Daily Updates</h2>
-                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+
+              <div className="flex gap-6 mt-0 md:mt-4">
+                <span className="md:w-32 md:h-16 w-20 h-20 bg-[#E0E9FA] rounded-full justify-center items-center flex ">
+                  <RiSecurePaymentLine className="text-[#3f78e0] text-2xl" />
+                </span>
+                <div>
+                  <h2 className="text-xl text-[#343f52] mb-3 font-bold mt-2">
+                  Secure Payments
+                  </h2>
+                  <p className="leading-6 font-medium text-lg">
+                    Nulla vitae elit libero pharetra augue dapibus.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="flex gap-6">
-              <div className="w-20 h-20 bg-[#E0E9FA] rounded-full">
-                <SiMarketo />
+
+            <div className="flex flex-col gpa-8">
+
+              <div className="flex gap-6">
+                <span className="md:w-32 md:h-16 w-20 h-20 bg-[#E0E9FA] rounded-full justify-center items-center flex ">
+                  <MdSystemUpdateAlt className="text-[#3f78e0] text-2xl" />
+                </span>
+                <div>
+                  <h2 className="text-xl text-[#343f52] mb-3 font-bold mt-2">
+                  Daily Updates
+                  </h2>
+                  <p className="leading-6 font-medium text-lg">
+                    Nulla vitae elit libero pharetra augue dapibus.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h2>Market Research</h2>
-                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+
+              <div className="flex gap-6 mt-4 md:mt-6">
+                <span className="md:w-32 md:h-16 w-20 h-20 bg-[#E0E9FA] rounded-full justify-center items-center flex ">
+                  <SiMarketo className="text-[#3f78e0] text-2xl" />
+                </span>
+                <div>
+                  <h2 className="text-xl text-[#343f52] mb-3 font-bold mt-2">
+                  Market Research
+                  </h2>
+                  <p className="leading-6 font-medium text-lg">
+                    Nulla vitae elit libero pharetra augue dapibus.
+                  </p>
+                </div>
+
+
               </div>
             </div>
-           </div>
-          </div>
+
+
+
+            </div>
         </div>
-        
-
 
         <div className="flex gap-4">
-            <div className="grid gap-4">
-                <img className="rounded-md" src={img1} alt="" />
-                <img className="rounded-md" src={img3} alt="" />
-            </div>
-            <div className="grid gap-4">
-                <img className="rounded-md" src={img2} alt="" />
-                <img className="rounded-md" src={img4} alt="" />
-            </div>
+          <div className="grid gap-4">
+            <img className="rounded-md" src={img1} alt="" />
+            <img className="rounded-md" src={img3} alt="" />
+          </div>
+          <div className="grid gap-4">
+            <img className="rounded-md" src={img2} alt="" />
+            <img className="rounded-md" src={img4} alt="" />
+          </div>
         </div>
-
       </div>
     </div>
   );
