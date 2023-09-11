@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.myContainer{
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* Navbar custom css start */
+@layer components {
+    .menu-item {
+        @apply p-5 inline-block  hover:border-white;
+    }
+
+    .mega-sub-item {
+        @apply block p-2 hover:bg-white hover:text-black cursor-pointer text-sm ;
+    }
+
+    .mega-sub-item-title {
+        @apply block font-semibold text-sm mb-5 ;
+    }
+
+    .menu-sub-item {
+        @apply block px-7 py-2 hover:bg-white hover:text-black text-sm;
+    }
+}
+
+@layer utilities {
+    .sub-dropdown:hover>.sub-dropdown-content {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    .sub-dropdown:hover>a {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+/* Navbar custom css end */
