@@ -24,3 +24,5 @@ export const router = createBrowserRouter([
         ]
     }
 ])
+
+// style={{clipPath: 'polygon(0 0, 100% 0, 100% 88%, 0 100%)'}}>

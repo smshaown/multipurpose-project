@@ -3,6 +3,7 @@ import Services1Banner from './Services1Banner';
 import ProjectCard from './ProjectCard';
 import WhatDoSection from './WhatDoSection';
 import HowDoSection from './HowDoSection';
+import { ModelVideo } from './ModelVideo';
 
 const Services = () => {
     return (
@@ -11,6 +12,7 @@ const Services = () => {
             <ProjectCard />
             <WhatDoSection />
             <HowDoSection />
+            <ModelVideo />
         </div>
     );
 };
