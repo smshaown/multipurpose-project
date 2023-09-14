@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard';
 import WhatDoSection from './WhatDoSection';
 import HowDoSection from './HowDoSection';
 import { ModelVideo } from './ModelVideo';
+import { OurPricing } from './OurPricing';
 
 const Services = () => {
     return (
@@ -12,7 +13,8 @@ const Services = () => {
             <ProjectCard />
             <WhatDoSection />
             <HowDoSection />
-            <ModelVideo />
+            <ModelVideo  />
+            <OurPricing />
         </div>
     );
 };
