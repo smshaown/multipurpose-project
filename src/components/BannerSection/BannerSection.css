@@ -1,0 +1,9 @@
+.bannerSection{
+    background-image: url('../.../../../assets/images/Pages/Services/Services1/bg1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+}
