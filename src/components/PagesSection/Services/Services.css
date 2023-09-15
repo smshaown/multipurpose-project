@@ -89,7 +89,7 @@
   }
 
 
-   /* sag icon color */
+   /* daily report sag icon color */
 
 .lineal-fill {
     fill: #fcd49b;
@@ -99,5 +99,15 @@
 }
 .lineal-fill3 {
     fill: #8caeec;
+}
+
+/* Orr Process svg icon color  */
+
+.lineal-fill4{
+    fill: #8FDCC6;
+}
+
+.lineal-stroke4{
+    fill: #8FDCC6;
 }
 

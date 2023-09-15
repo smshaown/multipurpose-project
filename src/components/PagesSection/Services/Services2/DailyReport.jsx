@@ -4,12 +4,12 @@ import "../Services.css";
 
 export const DailyReport = () => {
   return (
-    <div className="mt-40 mb-40">
+    <div className="mt-20 md:mt-40">
       <div className="myContainer">
         <div className="flex flex-col lg:flex-row justify-between items-center">
-          <div className="w-[500px] md:ml-[34px]">
+          <div className="w-full lg:w-[500px] md:ml-[34px]">
             <Title title="What We Do?" />
-            <h1 className="text-[42px] font-bold leading-[50px] mt-3 text-[#343f52] mb-8">
+            <h1 className="text-4xl md:text-[42px] font-bold leading-[50px] mt-3 text-[#343f52] mb-8">
               The service we offer is specifically designed to meet your needs.
             </h1>
             <p className="text-[#60697b] text-xl">

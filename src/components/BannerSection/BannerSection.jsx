@@ -8,8 +8,8 @@ export const BannerSection = () => {
       <div
         className="flex flex-col justify-center items-center w-full h-full px-3"
         style={{ backgroundColor: "rgba(30,34,40,.5)" }}>      
-        <h1 className="text-6xl font-bold text-white mt-4">Our Services</h1>
-        <h2 className="text-2xl tracking-tigh font-medium text-white text-center w-full md:w-2/4 mt-4">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mt-4">Our Services</h1>
+        <h2 className="text-xl md:text-2xl tracking-tigh font-medium text-white text-center w-full md:w-2/4 mt-4">
         We are a creative company that focuses on establishing long-term relationships with customers.
         </h2>
       </div>
