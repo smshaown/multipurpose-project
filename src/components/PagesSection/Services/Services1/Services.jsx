@@ -5,6 +5,7 @@ import WhatDoSection from './WhatDoSection';
 import HowDoSection from './HowDoSection';
 import { ModelVideo } from './ModelVideo';
 import { OurPricing } from './OurPricing';
+import { LetTalkSection } from './LetTalkSection';
 
 const Services = () => {
     return (
@@ -15,6 +16,7 @@ const Services = () => {
             <HowDoSection />
             <ModelVideo  />
             <OurPricing />
+            <LetTalkSection />
         </div>
     );
 };
