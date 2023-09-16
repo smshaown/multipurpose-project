@@ -1,5 +1,5 @@
 import { BiCheck } from 'react-icons/bi';
-import img from '../../../../assets/images/Pages';
+import img from '../../../../assets/images/Pages/Services/Services2/i7.png';
 
 export const PerfectControl = () => {
   return (
