@@ -111,3 +111,13 @@
     fill: #8FDCC6;
 }
 
+/* our price card  */
+
+.ourPriceCard{
+    height: 500px !important;
+}
+
+.ourPriceCard:nth-child(2){
+    height: 550px !important;
+}
+
