@@ -3,6 +3,8 @@ import { BannerSection } from '../../../BannerSection/BannerSection'
 import { DailyReport } from './DailyReport'
 import { OurProcess } from './OurProcess'
 import AnalysisSection from './AnalysisSection'
+import { PerfectControl } from './PerfectControl'
+import { OurPricing } from './OurPricing'
 
 export const Services2 = () => {
   return (
@@ -11,6 +13,8 @@ export const Services2 = () => {
       <DailyReport />
       <OurProcess />
       <AnalysisSection />
+      <PerfectControl />
+      <OurPricing />
     </div>
   )
 }
