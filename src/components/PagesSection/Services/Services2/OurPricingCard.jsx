@@ -3,21 +3,28 @@ import { BiCheck } from "react-icons/bi";
 import { Button } from "../../../../SameSection/Button/Button";
 import "../Services.css";
 
-export const OurPricingCard = ({ price, yr, api, storage, project }) => {
+export const OurPricingCard = ({
+  price,
+  yr,
+  api,
+  storage,
+  project,
+  svg,
+  name,
+}) => {
   return (
     <div
-      className="mt-10 w-full md:w-[350px]  md:gap-4 lg:gap-0 rounded-lg flex flex-col justify-center items-center z-10 relative bg-white  mb-20 ourPriceCard"
+      className="mt-10 w-full md:w-[350px]  md:gap-4 lg:gap-0 rounded-lg flex flex-col justify-center items-center z-10 relative bg-white mb-5 ourPriceCard"
       style={{ boxShadow: "rgba(0, 0, 0, 0.15) 0px 5px 15px 0px" }}
     >
       <header className="">
-        <h1 className="text-[#343f52]">
+        <span className="flex flex-col justify-center items-center">{svg}</span>
+        <h3 className="text-[#343f52] text-xl mt-2 mb-3 font-bold">{name}</h3>
+        <h1 className="text-[#343f52] mb-6">
           <sup className="text-xl font-medium">$</sup>{" "}
           <span className="text-4xl font-bold">{price}</span>
           <sub className="font-medium text-base">{yr}</sub>{" "}
         </h1>
-        <h3 className="text-[#343f52] text-xl mt-2 mb-6 font-bold">
-          Premium Plan
-        </h3>
       </header>
       <div>
         <ul className="mb-8">

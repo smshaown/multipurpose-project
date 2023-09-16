@@ -107,6 +107,10 @@
     fill: #8FDCC6;
 }
 
+.lineal-fill5, .lineal-stroke5{
+    fill: #8CAEEC;
+}
+
 .lineal-stroke4{
     fill: #8FDCC6;
 }
@@ -114,10 +118,10 @@
 /* our price card  */
 
 .ourPriceCard{
-    height: 500px !important;
+    height: 550px !important;
 }
 
 .ourPriceCard:nth-child(2){
-    height: 550px !important;
+    height: 600px !important;
 }
 
