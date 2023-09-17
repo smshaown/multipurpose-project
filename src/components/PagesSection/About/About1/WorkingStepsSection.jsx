@@ -36,11 +36,16 @@ export const WorkingStepsSection = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="w-full lg:w-1/2 lg:order-first order-last">
           <h1 className="text-4xl md:text-[39px] font-bold text-[#343f52] mt-8">
-            Who Are We?
+           How It Works?
           </h1>
-          <p className="py-8 text-[#60697b] text-xl md:text-[21px] font-medium tracking-wide">
-            We are a digital and branding company that believes in the power of
-            creative strategy and along with great design.
+          <p className="pt-[28px] text-[#60697b] text-2xl font-medium tracking-wide">
+           Find out everything you need to know and more about how we create our business process models.
+          </p>
+          <p className="text-[#60697b] font-light pt-6 tracking-wide leading-6">
+              Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare.
+          </p>
+          <p className="text-[#60697b] font-light pt-6 tracking-wide leading-6">
+             Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis.
           </p>
         </div>
         <div className="w-full lg:w-1/2"></div>
