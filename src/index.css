@@ -48,3 +48,30 @@ body{
 }
 
 /* Navbar custom css end */
+
+ /* daily report sag icon color */
+
+.lineal-fill {
+    fill: #fcd49b;
+}
+.lineal-fill2 {
+    fill: #e2626b;
+}
+
+.lineal-fill3 {
+    fill: #8caeec;
+}
+
+/* Orr Process svg icon color  */
+
+.lineal-fill4{
+    fill: #8FDCC6;
+}
+
+.lineal-fill5, .lineal-stroke5{
+    fill: #8CAEEC;
+}
+
+.lineal-stroke4{
+    fill: #8FDCC6;
+}
