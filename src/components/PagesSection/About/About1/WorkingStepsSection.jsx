@@ -33,15 +33,18 @@ export const WorkingStepsSection = () => {
         />
       </div>
 
-
       <div className="flex flex-col lg:flex-row justify-between items-center">
-        <div className="w-full lg:w-1/2 lg:order-first order-last"></div>
-        <div className="w-full lg:w-1/2">
-
+        <div className="w-full lg:w-1/2 lg:order-first order-last">
+          <h1 className="text-4xl md:text-[39px] font-bold text-[#343f52] mt-8">
+            Who Are We?
+          </h1>
+          <p className="py-8 text-[#60697b] text-xl md:text-[21px] font-medium tracking-wide">
+            We are a digital and branding company that believes in the power of
+            creative strategy and along with great design.
+          </p>
         </div>
+        <div className="w-full lg:w-1/2"></div>
       </div>
-
-
     </div>
   );
 };
