@@ -57,14 +57,14 @@ const PagesDropDown = () => {
           style={{ boxShadow: "0px 0px 32px -3px rgba(0,0,0,0.1)" }}
         >
           <li>
-            <a href="" className={`menu-sub-item`}>
+            <NavLink to="/about1" className={`menu-sub-item`}>
               About <span className={`ml-2`}>|</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="" className={`menu-sub-item -mt-1`}>
+            <NavLink to="/about2" className={`menu-sub-item -mt-1`}>
               About <span className={`ml-2`}>||</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </li>

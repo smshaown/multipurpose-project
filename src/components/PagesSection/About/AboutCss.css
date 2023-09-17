@@ -1,0 +1,10 @@
+.AboutBannerImg{
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    /* background-image: url('../../../assets/images/Pages/About/About1/bg12.webp');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 100%;
+    background-attachment: fixed; */
+}

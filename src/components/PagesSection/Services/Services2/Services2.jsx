@@ -5,6 +5,7 @@ import { OurProcess } from './OurProcess'
 import AnalysisSection from './AnalysisSection'
 import { PerfectControl } from './PerfectControl'
 import { OurPricing } from './OurPricing'
+import { Join } from './Join'
 
 export const Services2 = () => {
   return (
@@ -15,6 +16,7 @@ export const Services2 = () => {
       <AnalysisSection />
       <PerfectControl />
       <OurPricing />
+      <Join />
     </div>
   )
 }
