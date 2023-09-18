@@ -4,6 +4,7 @@ import HomeDemo from "../components/DemoSection/HomeDemo";
 import Services from "../components/PagesSection/Services/Services1/Services";
 import { Services2 } from "../components/PagesSection/Services/Services2/Services2";
 import { About1 } from "../components/PagesSection/About/About1/About1";
+import { Blocks } from "../components/BlocksSection/Blocks/Blocks";
 
 export const router = createBrowserRouter([
     {
@@ -32,6 +33,12 @@ export const router = createBrowserRouter([
            },
            // pages  Section end 
            
+          //  Blocks section start 
+           {
+            path: "/blocks",
+            element: <Blocks />
+           }
+          //  Blocks section end
 
         ]
     },
