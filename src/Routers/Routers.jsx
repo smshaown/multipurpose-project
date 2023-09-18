@@ -14,6 +14,9 @@ export const router = createBrowserRouter([
             path: "/",
             element: <HomeDemo />
            },
+
+           // pages Section start 
+
            {
             path: "/services1",
             element: <Services />
@@ -22,14 +25,19 @@ export const router = createBrowserRouter([
             path: "/services2",
             element: <Services2 />
            },
-             // pages About1 and About2 Section start 
+             
            {
             path: "/about1",
             element: <About1 />
-           }
-           // pages About1 and About2 Section end 
+           },
+           // pages  Section end 
+           
+
         ]
-    }
+    },
+
+   
+
 ])
 
 // style={{clipPath: 'polygon(0 0, 100% 0, 100% 88%, 0 100%)'}}>

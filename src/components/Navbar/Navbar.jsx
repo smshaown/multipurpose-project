@@ -32,6 +32,11 @@ const Navbar = () => {
                     <NavLink className="menu-item group-hover:border-white flex flex-row items-center">Blog <span> <MdOutlineKeyboardArrowDown className="text-lg font-bold mt-1 ml-1" /> </span></NavLink>
                 </li>
 
+
+                <li>
+                    <NavLink to="/blocks" className="menu-item group-hover:border-white flex flex-row items-center">Blocks<span> <MdOutlineKeyboardArrowDown className="text-lg font-bold mt-1 ml-1" /> </span></NavLink>
+                </li>
+
                 <li>
                 <NavLink href="" className="menu-item group-hover:border-white flex flex-row items-center">Documentation <span> <MdOutlineKeyboardArrowDown className="text-lg font-bold mt-1 ml-1" /> </span></NavLink>
                 </li>
