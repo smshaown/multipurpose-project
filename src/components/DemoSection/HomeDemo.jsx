@@ -1,9 +1,10 @@
 import React from 'react';
+import { Modals } from '../BlocksSection/Modals/Modals';
 
 const HomeDemo = () => {
     return (
         <div>
-            Home Demo
+            <Modals />
         </div>
     );
 };
