@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./styles.css";
+// import "./styles.css";
 
 // import required modules
 import { Pagination } from "swiper/modules";
@@ -14,33 +14,42 @@ import { Pagination } from "swiper/modules";
 export const TestimonialSideSlider = () => {
   return (
     <div>
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-        <SwiperSlide>
-          <div>
-            <p>
-              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+       <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+        style={{ '--swiper-pagination-color': 'black' }}
+      
+      >
+        <SwiperSlide >
+          <div className="py-20 text-center mt-32">
+            <p className="text-2xl font-light">
+             "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
               auctor. Vestibulum ligula porta felis euismod semper. Cras justo
-              odio.
+              odio."
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <p>
-              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+        <div className="py-20 text-center mt-32">
+            <p className="text-2xl font-light">
+             "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
               auctor. Vestibulum ligula porta felis euismod semper. Cras justo
-              odio.
+              odio."
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <p>
-              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+        <div className="py-20 text-center mt-32">
+            <p className="text-2xl font-light">
+             "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
               auctor. Vestibulum ligula porta felis euismod semper. Cras justo
-              odio.
+              odio."
             </p>
-          </div>{" "}
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
